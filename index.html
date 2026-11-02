@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AFMCart | Launching Soon</title>
+<meta name="description" content="AFMCart is almost here. Leave your email and be the first to shop when we open.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0f2a24;
+  --bg2:#17382f;
+  --ink:#f3f7f2;
+  --muted:#a9c2b8;
+  --accent:#ffb627;
+  --accent-ink:#2a1c00;
+  --line:rgba(243,247,242,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:radial-gradient(circle at 50% 40%,var(--bg2),var(--bg) 70%);
+  color:var(--ink);
+  min-height:100vh;
+  overflow-x:hidden;
+  display:flex;
+  flex-direction:column;
+}
+/* cart icon background */
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bg svg{
+  position:absolute;width:var(--s);height:var(--s);left:var(--x);top:var(--y);
+  stroke:var(--ink);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;
+  opacity:.07;animation:float var(--t) ease-in-out infinite;animation-delay:var(--d);
+}
+@keyframes float{
+  0%,100%{transform:translateY(0) rotate(var(--r))}
+  50%{transform:translateY(-22px) rotate(calc(var(--r) + 6deg))}
+}
+header{position:relative;z-index:1;padding:28px clamp(20px,5vw,56px);display:flex;align-items:center}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.25rem;letter-spacing:-.02em}
+.logo svg{width:34px;height:34px}
+main{
+  position:relative;z-index:1;flex:1;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:24px clamp(20px,5vw,56px) 56px;
+}
+/* hero cart: drives in, then gently bobs */
+.hero-cart{
+  width:clamp(90px,18vw,140px);height:clamp(90px,18vw,140px);margin-bottom:22px;
+  animation:drive 4s cubic-bezier(.25,.6,.3,1) both, bob 3.5s ease-in-out 4s infinite;
+}
+.hero-cart .wheel{transform-box:fill-box;transform-origin:center;animation:spin 4s cubic-bezier(.25,.6,.3,1) both}
+@keyframes drive{
+  from{transform:translateX(-70vw) scale(.6);opacity:0}
+  to{transform:translateX(0) scale(1);opacity:1}
+}
+@keyframes spin{from{transform:rotate(-540deg)}to{transform:rotate(0)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.status{
+  display:inline-flex;align-items:center;gap:10px;
+  border:1px solid var(--line);border-radius:999px;padding:8px 16px;
+  color:var(--muted);font-size:.95rem;margin-bottom:24px;
+}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--accent);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.7);opacity:.5}}
+h1{
+  font-weight:800;letter-spacing:-.045em;line-height:.95;
+  font-size:clamp(3.4rem,13vw,9.5rem);
+  animation:zoomIn 1.8s 2.2s cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes zoomIn{
+  from{transform:scale(.4);opacity:0;filter:blur(12px)}
+  to{transform:scale(1);opacity:1;filter:blur(0)}
+}
+.sub{
+  margin:26px 0 40px;max-width:34rem;color:var(--muted);
+  font-size:clamp(1.05rem,2.4vw,1.3rem);line-height:1.5;
+}
+form{display:flex;gap:10px;width:100%;max-width:30rem;flex-wrap:wrap;justify-content:center}
+input{
+  flex:1 1 220px;padding:16px 20px;border-radius:999px;border:1px solid var(--line);
+  background:rgba(255,255,255,.06);color:var(--ink);font:inherit;font-size:1rem;
+}
+input::placeholder{color:#86a398}
+button{
+  padding:16px 28px;border:0;border-radius:999px;background:var(--accent);color:var(--accent-ink);
+  font:inherit;font-weight:600;font-size:1rem;cursor:pointer;transition:transform .15s;
+}
+button:hover{transform:scale(1.05)}
+input:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.msg{margin-top:16px;min-height:1.4em;color:var(--accent);font-size:.98rem}
+footer{position:relative;z-index:1;padding:20px;text-align:center;color:var(--muted);font-size:.9rem}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="cart" viewBox="0 0 24 24">
+    <path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h9.6a1 1 0 0 0 1-.8L21 7H6"/>
+    <circle cx="9.5" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/>
+  </symbol>
+</svg>
+
+<div class="bg" aria-hidden="true">
+  <svg style="--x:6%;--y:12%;--s:90px;--r:-12deg;--t:7s;--d:0s"><use href="#cart"/></svg>
+  <svg style="--x:78%;--y:8%;--s:120px;--r:10deg;--t:9s;--d:-2s"><use href="#cart"/></svg>
+  <svg style="--x:42%;--y:4%;--s:60px;--r:0deg;--t:6s;--d:-4s"><use href="#cart"/></svg>
+  <svg style="--x:88%;--y:42%;--s:80px;--r:-8deg;--t:8s;--d:-1s"><use href="#cart"/></svg>
+  <svg style="--x:3%;--y:48%;--s:130px;--r:14deg;--t:10s;--d:-3s"><use href="#cart"/></svg>
+  <svg style="--x:20%;--y:78%;--s:70px;--r:-6deg;--t:7s;--d:-5s"><use href="#cart"/></svg>
+  <svg style="--x:62%;--y:80%;--s:110px;--r:8deg;--t:9s;--d:-2.5s"><use href="#cart"/></svg>
+  <svg style="--x:90%;--y:76%;--s:64px;--r:-14deg;--t:6.5s;--d:-1.5s"><use href="#cart"/></svg>
+</div>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <rect width="40" height="40" rx="11" fill="#ffb627"/>
+      <path d="M8 11h4l3 14h14l3-10H14" stroke="#2a1c00" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="17" cy="30" r="2.2" fill="#2a1c00"/><circle cx="27" cy="30" r="2.2" fill="#2a1c00"/>
+    </svg>
+    AFMCart
+  </div>
+</header>
+
+<main>
+  <svg class="hero-cart" viewBox="0 0 24 24" fill="none" stroke="#ffb627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h9.6a1 1 0 0 0 1-.8L21 7H6"/>
+    <circle class="wheel" cx="9.5" cy="20" r="1.5"/><circle class="wheel" cx="17" cy="20" r="1.5"/>
+    <path class="wheel" d="M9.5 18.9v2.2M8.4 20h2.2M17 18.9v2.2M15.9 20h2.2" stroke-width=".6"/>
+  </svg>
+  <div class="status"><span class="dot"></span>Launching soon</div>
+  <h1>AFMCart</h1>
+  <p class="sub">Our online store opens soon. Leave your email and we will tell you the moment it goes live.</p>
+
+  <form id="f">
+    <input type="email" id="email" placeholder="Your email address" aria-label="Email address" required>
+    <button type="submit">Notify me</button>
+  </form>
+  <p class="msg" id="msg" role="status"></p>
+</main>
+
+<footer>&copy; <span id="y"></span> AFMCart. All rights reserved.</footer>
+
+<script>
+document.getElementById("y").textContent = new Date().getFullYear();
+
+// Replace with your own endpoint (Formspree, Google Apps Script, etc.)
+var FORM_URL = "";
+document.getElementById("f").addEventListener("submit", function(e){
+  e.preventDefault();
+  var email = document.getElementById("email").value.trim();
+  var msg = document.getElementById("msg");
+  if(FORM_URL){
+    fetch(FORM_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:email})})
+      .then(function(){msg.textContent="Thanks. We will email you when AFMCart opens.";e.target.reset()})
+      .catch(function(){msg.textContent="Could not send. Please try again."});
+  } else {
+    msg.textContent="Thanks. We will email you when AFMCart opens.";
+    e.target.reset();
+  }
+});
+</script>
+</body>
+</html>
