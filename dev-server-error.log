@@ -1,0 +1,376 @@
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+Sharp optimization failed or skipped, saving original image: Error: Could not load the "sharp" module using the win32-x64 runtime
+Possible solutions:
+- Ensure optional dependencies can be installed:
+    npm install --include=optional sharp
+- Ensure your package manager supports multi-platform installation:
+    See https://sharp.pixelplumbing.com/install#cross-platform
+- Add platform-specific dependencies:
+    npm install --os=win32 --cpu=x64 sharp
+- Consult the installation documentation:
+    See https://sharp.pixelplumbing.com/install
+    at __webpack_require__ (D:\P\afm-cart\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (D:\P\afm-cart\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (D:\P\afm-cart\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__.t (D:\P\afm-cart\.next\server\webpack-runtime.js:78:38)
+    at async POST (app\api\admin\upload\route.ts:38:21)
+  36 |     let isWebp = false;
+  37 |     try {
+> 38 |       const sharp = (await import("sharp")).default;
+     |                     ^
+  39 |       buffer = await sharp(buffer)
+  40 |         .resize({ width: 1200, withoutEnlargement: true })
+  41 |         .webp({ quality: 80 })
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+ ⚠ ./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/include' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+Module not found: Can't resolve '@img/sharp-libvips-dev/cplusplus' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/libvips.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+Module not found: Can't resolve '@img/sharp-wasm32/versions' in 'D:\P\afm-cart\node_modules\.pnpm\sharp@0.33.5\node_modules\sharp\lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/utility.js
+./node_modules/.pnpm/sharp@0.33.5/node_modules/sharp/lib/index.js
+./app/api/admin/upload/route.ts
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:33:55)
+  31 |     } = body;
+  32 |
+> 33 |     const skuRecord = await ProductSKU.findById(params.id);
+     |                                                       ^
+  34 |     if (!skuRecord) return NextResponse.json({ success: false, message: "SKU not found" }, { status: 404 });
+  35 |
+  36 |     const attrs = variants === undefined ? null : normalizeVariants(variants);
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:37:87)
+  35 |
+  36 |     const attrs = variants === undefined ? null : normalizeVariants(variants);
+> 37 |     if (attrs) await assertVariantsAllowed(skuRecord.M06_M05_product_id, attrs, params.id);
+     |                                                                                       ^
+  38 |
+  39 |     const thumbnail_image = gallery && gallery.length > 0 ? gallery[0] : null;
+  40 |
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:42:46)
+  40 |
+  41 |     // 1. Update SKU
+> 42 |     await ProductSKU.findByIdAndUpdate(params.id, {
+     |                                              ^
+  43 |       M06_sku: sku,
+  44 |       M06_product_sku_name: product_name,
+  45 |       M06_description: description,
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:64:84)
+  62 |
+  63 |     // 3. Update Gallery (Delete existing ones and insert new ones)
+> 64 |     const oldImages = ((await ProductSKUImage.find({ M07_M06_product_sku_id: params.id } as any).lean()) as any[]).map((i) => i.M07_image_path);
+     |                                                                                    ^
+  65 |     await ProductSKUImage.deleteMany({ M07_M06_product_sku_id: params.id } as any);
+  66 |     if (gallery && gallery.length > 0) {
+  67 |       const imageDocs = gallery.map((imgPath: string, index: number) => ({
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:65:70)
+  63 |     // 3. Update Gallery (Delete existing ones and insert new ones)
+  64 |     const oldImages = ((await ProductSKUImage.find({ M07_M06_product_sku_id: params.id } as any).lean()) as any[]).map((i) => i.M07_image_path);
+> 65 |     await ProductSKUImage.deleteMany({ M07_M06_product_sku_id: params.id } as any);
+     |                                                                      ^
+  66 |     if (gallery && gallery.length > 0) {
+  67 |       const imageDocs = gallery.map((imgPath: string, index: number) => ({
+  68 |         M07_image_path: imgPath,
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at eval (app\api\admin\products\[id]\route.ts:69:39)
+    at Array.map (<anonymous>)
+    at PUT (app\api\admin\products\[id]\route.ts:67:32)
+  67 |       const imageDocs = gallery.map((imgPath: string, index: number) => ({
+  68 |         M07_image_path: imgPath,
+> 69 |         M07_M06_product_sku_id: params.id,
+     |                                       ^
+  70 |         M07_order: index,
+  71 |         M07_is_active: 1
+  72 |       }));
+Error: Route "/api/admin/products/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PUT (app\api\admin\products\[id]\route.ts:75:73)
+  73 |       await ProductSKUImage.insertMany(imageDocs);
+  74 |     }
+> 75 |     if (attrs) await setSkuVariants(skuRecord.M06_M05_product_id, params.id, attrs);
+     |                                                                         ^
+  76 |     await deleteUnusedUploads([...oldImages, skuRecord.M06_thumbnail_image]);
+  77 |
+  78 |     return NextResponse.json({ success: true, message: "Product updated successfully" });
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(node:21352) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+
+<--- Last few GCs --->
+
+[21352:0000015EBA93E000]  3471446 ms: Scavenge (during sweeping) 6800.4 (6846.8) -> 6786.8 (6847.8) MB, pooled: 0.0 MB, 7.21 / 0.00 ms (average mu = 0.226, current mu = 0.152) allocation failure; 
+[21352:0000015EBA93E000]  3476580 ms: Incremental Mark-Compact (reduce) 6803.3 (6849.6) -> 6777.4 (6819.6) MB, pooled: 0.0 MB, 3728.00 / 0.00 ms (+ 1322.6 ms in 263 steps since start of marking, biggest step 5.5 ms, walltime since start of marking 5135 ms
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF62C168C31 node::OnFatalError+1409
+ 2: 00007FF62CF37121 v8::Function::NewInstance+577
+ 3: 00007FF62CD1B377 EVP_PKEY_asn1_set_public_check+504087
+ 4: 00007FF62CD18F3D EVP_PKEY_asn1_set_public_check+494813
+ 5: 00007FF62CD3596A v8::internal::StrongRootAllocatorBase::deallocate_impl+45626
+ 6: 00007FF62CD36E03 v8::internal::StrongRootAllocatorBase::deallocate_impl+50899
+ 7: 00007FF62CD36A13 v8::internal::StrongRootAllocatorBase::deallocate_impl+49891
+ 8: 00007FF62CD48350 v8::internal::StrongRootAllocatorBase::deallocate_impl+121888
+ 9: 00007FF62C8CE1A2 v8::String::Value::~Value+166290
+10: 0000015EE307F43A 
