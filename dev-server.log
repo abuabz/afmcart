@@ -1,0 +1,585 @@
+
+> afm-cart@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.2.8
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.138:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ✓ Compiled /middleware in 160ms
+ ✓ Compiled (147 modules)
+ ○ Compiling /api/v1/customer/product-category ...
+ ✓ Compiled /api/v1/customer/product-category in 745ms (364 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 1747ms
+ ○ Compiling /api/v1/customer/featured-products ...
+ ✓ Compiled /api/v1/customer/featured-products in 620ms (367 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/featured-products 200 in 722ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 35ms
+ ✓ Compiled /api/admin/login in 282ms (405 modules)
+ POST /api/admin/login 200 in 329ms
+ ○ Compiling /products/[id] ...
+ ✓ Compiled /products/[id] in 4.2s (1032 modules)
+ ✓ Compiled in 385ms (442 modules)
+ GET /products/6ac4ce2ea09d1526077b855d 200 in 5223ms
+ GET /products/6ac4ce2ea09d1526077b855d 200 in 37ms
+ GET /products/6ac4ce2ea09d1526077b855d 200 in 30ms
+ GET /products/6ac4ce2ea09d1526077b855d 200 in 24ms
+ GET /products/6ac4ce2ea09d1526077b855d 200 in 19ms
+ ○ Compiling /api/v1/customer/product-sku/[id] ...
+ ✓ Compiled /api/v1/customer/product-sku/[id] in 1292ms (1044 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku/6ac4ce2ea09d1526077b855d 404 in 2664ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku/6ac4ce2ea09d1526077b855d 404 in 22ms
+ ○ Compiling /products ...
+ ✓ Compiled /products in 698ms (1053 modules)
+ GET /products 200 in 866ms
+ ✓ Compiled /api/v1/customer/product-sku in 247ms (617 modules)
+ ✓ Compiled in 278ms (438 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 694ms
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 701ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 16ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 22ms
+ ○ Compiling / ...
+ ✓ Compiled / in 886ms (964 modules)
+ GET / 200 in 1074ms
+ ✓ Compiled /api/v1/customer/product-category in 115ms (542 modules)
+ ✓ Compiled (544 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 410ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 422ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 423ms
+ GET /api/v1/customer/product-sku?search=gift 200 in 427ms
+ ✓ Compiled in 650ms (1138 modules)
+ ✓ Compiled /products in 436ms (557 modules)
+ GET /products 200 in 695ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 83ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 116ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 25ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 29ms
+ ○ Compiling /admin/login ...
+ ✓ Compiled /admin/login in 591ms (1021 modules)
+ GET /admin/login 200 in 856ms
+ ✓ Compiled /api/v1/customer/productLists/[id] in 330ms (1023 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 2207ms
+ ✓ Compiled /api/admin/login in 313ms (617 modules)
+ POST /api/admin/login 200 in 420ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 790ms (1119 modules)
+ GET /admin 200 in 1190ms
+ ○ Compiling /api/admin/contacts ...
+ ✓ Compiled /api/admin/contacts in 876ms (1125 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 1040ms
+ GET /api/v1/customer/productLists/0 200 in 1038ms
+ GET /api/v1/customer/product-sku 200 in 1051ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/contacts 200 in 1099ms
+ GET /api/admin/featured 200 in 1109ms
+ GET /admin 200 in 516ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 86ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 101ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 120ms
+ GET /api/admin/contacts 200 in 122ms
+ GET /api/admin/featured 200 in 124ms
+ GET / 200 in 199ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 46ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?search=gift 200 in 76ms
+ GET /api/v1/customer/product-category?limit=100 200 in 78ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 120ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 127ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 1808ms (1097 modules)
+ GET /about 200 in 2136ms
+ GET /admin 200 in 89ms
+ GET /about 200 in 47ms
+ ✓ Compiled /products in 284ms (612 modules)
+ GET /products 200 in 526ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 74ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 102ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 37ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 45ms
+ ○ Compiling /admin/products ...
+ ✓ Compiled /admin/categories in 2.3s (1124 modules)
+ GET /admin/categories 200 in 1154ms
+ GET /admin/products 200 in 2472ms
+ GET /products 200 in 92ms
+ GET /admin/categories 200 in 23ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 41ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 13ms
+ GET /admin/categories 200 in 22ms
+ ○ Compiling /api/admin/categories ...
+ ✓ Compiled /api/admin/categories in 727ms (1118 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/admin/categories 201 in 862ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 43ms
+ GET /admin/products 200 in 67ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 40ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 50ms
+ ○ Compiling /api/admin/upload ...
+ POST /api/admin/upload 200 in 1607ms
+ GET /products 200 in 136ms
+ GET /admin/products 200 in 170ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/admin/products 500 in 1393ms
+ GET /products 200 in 100ms
+ GET /admin/products 200 in 142ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/admin/products 201 in 58ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 35ms
+ GET /products 200 in 312ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 1003ms
+ GET /api/v1/customer/product-category?limit=100 200 in 958ms
+ GET /api/v1/customer/product-sku?page=1&limit=32 200 in 963ms
+ GET / 200 in 63ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 29ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?search=gift 200 in 61ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 64ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 69ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 35ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32&categoryId=6ae985260ba4fe3d32360ba1 200 in 144ms
+ GET /api/v1/customer/product-category?limit=100 200 in 151ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?page=1&limit=32&categoryId=6ae985260ba4fe3d32360ba1 200 in 31ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 39ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 88ms
+ GET /admin/products 200 in 124ms
+ GET /admin/products 200 in 484ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 278ms
+ ✓ Compiled /api/v1/customer/productLists/[id] in 1881ms (1263 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 1366ms
+ GET /admin/products 200 in 1373ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 41ms
+ GET /admin/products 200 in 46ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 65ms
+ GET /admin/products 200 in 29ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 22ms
+ GET /admin/products 200 in 27ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 21ms
+ GET /admin/products 200 in 24ms
+ ✓ Compiled in 1454ms (1236 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 1067ms
+ GET /admin/products 200 in 1064ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 58ms
+ GET /admin/products 200 in 57ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 56ms
+ GET /admin/products 200 in 90ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 45ms
+ GET /admin/products 200 in 31ms
+ ✓ Compiled in 1615ms (1236 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 1370ms
+ GET /admin/products 200 in 1403ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 30ms
+ GET /admin/products 200 in 35ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 46ms
+ GET /admin/products 200 in 35ms
+ ✓ Compiled /api/v1/customer/product-sku in 1643ms (1090 modules)
+ ✓ Compiled in 0ms (609 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 1613ms
+ GET /api/v1/customer/product-sku 200 in 1647ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 1372ms
+ GET /admin/products 200 in 1374ms
+ ✓ Compiled in 1277ms (1264 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 964ms
+ GET /admin/products 200 in 996ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 32ms
+ GET /admin/products 200 in 32ms
+ ✓ Compiled in 351ms (508 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 79ms
+ GET /admin/products 200 in 113ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 881ms (1096 modules)
+ GET /admin 200 in 1177ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 88ms
+ GET /admin 200 in 95ms
+ ✓ Compiled /api/v1/customer/product-sku in 316ms (609 modules)
+ ✓ Compiled (621 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/contacts 200 in 984ms
+ GET /api/admin/featured 200 in 986ms
+ GET /api/v1/customer/product-category 200 in 1003ms
+ GET /api/v1/customer/product-sku 200 in 1004ms
+ GET /admin/products 200 in 95ms
+ ○ Compiling /admin/orders ...
+ ✓ Compiled /admin/orders in 833ms (1124 modules)
+ GET /admin/orders 200 in 968ms
+ ○ Compiling /api/admin/orders ...
+ ✓ Compiled /api/admin/orders in 521ms (1127 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders?status=all&q= 200 in 629ms
+ ✓ Compiled in 989ms (1130 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 195ms
+ GET /admin/orders 200 in 235ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders?status=all&q= 200 in 31ms
+ ○ Compiling /api/v1/customer/orders ...
+ ✓ Compiled /api/v1/customer/orders in 704ms (1107 modules)
+ POST /api/v1/customer/orders 400 in 838ms
+ ✓ Compiled /api/v1/customer/orders/track in 283ms (1109 modules)
+ POST /api/v1/customer/orders/track 400 in 334ms
+ ○ Compiling /api/v1/customer/store-settings ...
+ ✓ Compiled /api/v1/customer/store-settings in 744ms (1108 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/store-settings 200 in 928ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 124ms
+ GET /admin/orders 200 in 189ms
+ ✓ Compiled /api/v1/customer/pincode/[code] in 386ms (1096 modules)
+ GET /api/v1/customer/pincode/676304 200 in 2630ms
+ ○ Compiling / ...
+ ✓ Compiled / in 952ms (610 modules)
+ GET / 200 in 1395ms
+ ✓ Compiled /admin in 373ms (616 modules)
+ GET /admin 200 in 546ms
+ ○ Compiling /api/admin/contacts ...
+ ✓ Compiled /api/admin/contacts in 536ms (621 modules)
+ ✓ Compiled (633 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/featured 200 in 1424ms
+ GET /api/admin/contacts 200 in 1427ms
+ GET /api/v1/customer/product-category 200 in 1438ms
+ GET /api/v1/customer/product-sku 200 in 1440ms
+ ○ Compiling /api/admin/login ...
+ ✓ Compiled /api/admin/login in 540ms (634 modules)
+ POST /api/admin/login 200 in 643ms
+ ○ Compiling /api/admin/settings ...
+ ✓ Compiled /api/admin/settings in 764ms (1161 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 990ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 152ms
+ GET /admin 200 in 188ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/settings 200 in 50ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 14ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/settings 200 in 17ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 15ms
+ POST /api/admin/login 200 in 30ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 18ms
+ POST /api/admin/login 200 in 11ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 24ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/settings 200 in 17ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 12ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/settings 200 in 11ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 11ms
+ ✓ Compiled in 473ms (511 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 81ms
+ GET /admin 200 in 140ms
+ ✓ Compiled in 314ms (511 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 83ms
+ GET /admin 200 in 93ms
+ ✓ Compiled /api/admin/orders in 1453ms (1083 modules)
+ ✓ Compiled in 0ms (608 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/featured 200 in 1051ms
+ GET /api/admin/contacts 200 in 1055ms
+ GET /api/admin/orders 200 in 1056ms
+ GET /api/v1/customer/product-sku 200 in 1068ms
+ GET /api/v1/customer/product-category 200 in 1072ms
+ GET /admin 200 in 646ms
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 33ms
+ ✓ Compiled in 552ms (1119 modules)
+ GET /products?categoryID=6ae985260ba4fe3d32360ba1 200 in 116ms
+ GET /admin 200 in 147ms
+ GET /admin/products 200 in 53ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 93ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 112ms
+ GET /admin/orders 200 in 37ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders?status=all&q= 200 in 58ms
+ GET /admin 200 in 37ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/featured 200 in 34ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders 200 in 58ms
+ GET /api/admin/contacts 200 in 60ms
+ GET /admin/categories 200 in 40ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 27ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category 200 in 21ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 97ms
+ GET /api/admin/featured 200 in 102ms
+ GET /api/admin/contacts 200 in 104ms
+ GET /api/admin/orders 200 in 106ms
+ GET /api/v1/customer/product-category 200 in 109ms
+ ○ Compiling /admin/settings ...
+ ✓ Compiled /admin/settings in 1497ms (1116 modules)
+ GET /admin/settings 200 in 1713ms
+ ○ Compiling /api/admin/settings ...
+ ✓ Compiled /api/admin/settings in 566ms (629 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/settings 200 in 711ms
+ GET /api/admin/settings 200 in 715ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/settings 200 in 49ms
+ ○ Compiling /products/[id] ...
+ ✓ Compiled /products/[id] in 835ms (651 modules)
+ GET /products/6ae985490ba4fe3d32360ba5 200 in 1026ms
+ ○ Compiling /api/v1/customer/product-sku/[id] ...
+ ✓ Compiled /api/v1/customer/product-sku/[id] in 616ms (654 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku/6ae985490ba4fe3d32360ba5 200 in 784ms
+ ○ Compiling /api/v1/customer/variation-by-product-id/[id] ...
+ ✓ Compiled /api/v1/customer/variation-by-product-id/[id] in 971ms (1157 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku/6ae985490ba4fe3d32360ba5 200 in 1103ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 2758ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 40ms
+ ✓ Compiled /api/v1/customer/skus-variation-by-product-id/[id] in 482ms (1152 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/skus-variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 2081ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/skus-variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 24ms
+ ○ Compiling /admin/products ...
+ ✓ Compiled /admin/products in 717ms (658 modules)
+ GET /admin/products 200 in 887ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku/6ae985490ba4fe3d32360ba5 200 in 83ms
+ ○ Compiling /api/admin/products/[id] ...
+ ✓ Compiled /api/admin/products/[id] in 1160ms (1164 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PUT /api/admin/products/6ae985490ba4fe3d32360ba5 200 in 4068ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku 200 in 29ms
+ GET /products/6ae985490ba4fe3d32360ba5 200 in 417ms
+ ○ Compiling /api/v1/customer/productLists/[id] ...
+ ✓ Compiled /api/v1/customer/productLists/[id] in 678ms (659 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 1229ms
+ GET /api/v1/customer/product-sku/6ae985490ba4fe3d32360ba5 200 in 1122ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 70ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/skus-variation-by-product-id/6ae985490ba4fe3d32360ba4 200 in 67ms
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 1668ms (1171 modules)
+ GET /cart 200 in 1861ms
+ ○ Compiling /api/v1/customer/store-settings ...
+ ✓ Compiled /api/v1/customer/store-settings in 595ms (665 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/store-settings 200 in 720ms
+ GET /api/v1/customer/store-settings 200 in 721ms
+ ○ Compiling /api/v1/customer/pincode/[code] ...
+ ✓ Compiled /api/v1/customer/pincode/[code] in 672ms (650 modules)
+ GET /api/v1/customer/pincode/676304 200 in 796ms
+ ○ Compiling /api/v1/customer/orders ...
+ ✓ Compiled /api/v1/customer/orders in 632ms (652 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/v1/customer/orders 201 in 824ms
+ GET /cart 200 in 137ms
+ GET /admin/products 200 in 204ms
+ ○ Compiling /track-order ...
+ ✓ Compiled /track-order in 1843ms (1183 modules)
+ GET /track-order 200 in 2109ms
+ GET /admin/products 200 in 75ms
+ GET /track-order 200 in 78ms
+ ✓ Compiled /api/v1/customer/orders/track in 309ms (631 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/v1/customer/orders/track 200 in 496ms
+ ✓ Compiled /admin/orders in 293ms (635 modules)
+ GET /admin/orders 200 in 469ms
+ ✓ Compiled /api/admin/orders in 420ms (637 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders?status=all&q= 200 in 561ms
+ ○ Compiling /api/admin/orders/[id] ...
+ ✓ Compiled /api/admin/orders/[id] in 898ms (1150 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PATCH /api/admin/orders/6ae98bbb0ba4fe3d32360ba8 200 in 3084ms
+ GET /track-order 200 in 332ms
+ ○ Compiling /api/v1/customer/productLists/[id] ...
+ ✓ Compiled /api/v1/customer/productLists/[id] in 612ms (630 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 840ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/v1/customer/orders/track 200 in 68ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ PATCH /api/admin/orders/6ae98bbb0ba4fe3d32360ba8 200 in 61ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/v1/customer/orders/track 200 in 51ms
+ GET /track-order 200 in 353ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/productLists/0 200 in 62ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1065ms (636 modules)
+ GET / 200 in 1228ms
+ ○ Compiling /api/v1/customer/product-sku ...
+ ✓ Compiled /api/v1/customer/product-sku in 579ms (640 modules)
+ ✓ Compiled (646 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 1352ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 1343ms
+ GET /api/v1/customer/product-sku?search=gift 200 in 1346ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 1350ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 641ms (656 modules)
+ GET /about 200 in 802ms
+ ✓ Compiled in 2.1s (1160 modules)
+ GET /about 200 in 123ms
+ GET /track-order 200 in 135ms
+ GET /admin/orders 200 in 137ms
+ ✓ Compiled in 561ms (1130 modules)
+ GET /track-order 200 in 304ms
+ GET /about 200 in 339ms
+ GET /admin/orders 200 in 344ms
+ ✓ Compiled in 359ms (525 modules)
+ GET /track-order 200 in 192ms
+ GET /about 200 in 188ms
+ GET /admin/orders 200 in 226ms
+ ✓ Compiled /api/v1/customer/orders/track in 349ms (607 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ POST /api/v1/customer/orders/track 200 in 561ms
+ ○ Compiling /api/v1/customer/orders ...
+ ✓ Compiled /api/v1/customer/orders in 560ms (613 modules)
+ POST /api/v1/customer/orders 400 in 636ms
+ ✓ Compiled /api/v1/customer/pincode/[code] in 432ms (615 modules)
+ GET /api/v1/customer/pincode/676304 200 in 525ms
+ ○ Compiling /api/admin/login ...
+ ✓ Compiled /api/admin/login in 571ms (663 modules)
+ POST /api/admin/login 200 in 644ms
+ ✓ Compiled /api/admin/orders in 441ms (665 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/orders 200 in 522ms
+ ✓ Compiled in 864ms (1103 modules)
+ GET /track-order 200 in 355ms
+ GET /about 200 in 358ms
+ GET /admin/orders 200 in 362ms
+ GET /track-order 200 in 26ms
+ GET / 200 in 33ms
+ ○ Compiling /api/v1/customer/product-category ...
+ ✓ Compiled /api/v1/customer/product-category in 537ms (603 modules)
+ ✓ Compiled (605 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-category?limit=100 200 in 1062ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 1065ms
+ GET /api/v1/customer/product-sku?search=gift 200 in 1067ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 1070ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 2.5s (1267 modules)
+ GET /services 200 in 2793ms
+ GET /services 200 in 48ms
+ ○ Compiling /admin/warehouse ...
+ ✓ Compiled /admin/warehouse in 1283ms (1297 modules)
+ GET /admin/warehouse 200 in 1738ms
+ ○ Compiling /admin/pos ...
+ ✓ Compiled /admin/pos in 1049ms (1309 modules)
+ GET /services 200 in 1177ms
+ GET /admin/warehouse 200 in 1019ms
+ GET /admin/pos 200 in 1542ms
+ GET /admin/pos 200 in 21ms
+ GET / 200 in 34ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/v1/customer/product-sku?search=gift 200 in 100ms
+ GET /api/v1/customer/product-category?limit=100 200 in 116ms
+ GET /api/v1/customer/product-sku?search=jewel 200 in 120ms
+ GET /api/v1/customer/product-sku?search=toy 200 in 121ms
+ GET / 200 in 463ms
+ ○ Compiling /admin/pos ...
+ ✓ Compiled /admin/pos in 1846ms (1440 modules)
+ GET /admin/pos 200 in 1753ms
+ GET / 200 in 281ms
+ GET /admin/pos 200 in 42ms
+ ○ Compiling /api/admin/warehouse/items ...
+ ✓ Compiled /api/admin/warehouse/items in 743ms (1286 modules)
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/warehouse/items 200 in 922ms
+MongoDB connected: 127.0.0.1 (Database: afm-cart-database)
+ GET /api/admin/warehouse/items 200 in 19ms
+ ✓ Compiled in 1491ms (1440 modules)
+ GET /admin/pos 200 in 1278ms
+ GET / 200 in 1302ms
+ GET /admin/pos 200 in 46ms
+ GET / 200 in 83ms
+[?25h
