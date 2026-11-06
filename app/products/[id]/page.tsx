@@ -599,6 +599,7 @@ export default function ProductDetailPage() {
                       src={image || "/placeholder.svg"}
                       alt={`${product.name} ${index + 1}`}
                       fill
+                      priority={index === selectedImage}
                       className="object-contain p-2"
                     />
                   </button>

@@ -4,6 +4,6 @@ export async function getStorefrontSettings() {
   return StoreSettings.findOneAndUpdate(
     { key: "storefront" },
     { $setOnInsert: { key: "storefront", whatsappNotificationsEnabled: false } },
-    { upsert: true, new: true, setDefaultsOnInsert: true }
+    { upsert: true, returnDocument: "after", setDefaultsOnInsert: true }
   ).lean();
 }

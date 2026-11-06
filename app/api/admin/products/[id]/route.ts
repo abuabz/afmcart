@@ -90,7 +90,7 @@ export async function DELETE(request: Request, { params }: { params: { id: strin
     const deletedSKU = await ProductSKU.findByIdAndUpdate(
       params.id,
       { M06_deleted_at: new Date() },
-      { new: true }
+      { returnDocument: "after" }
     );
 
     if (!deletedSKU) return NextResponse.json({ success: false, message: "Product not found" }, { status: 404 });

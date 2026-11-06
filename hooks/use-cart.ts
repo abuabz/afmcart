@@ -105,6 +105,7 @@ export const useCart = create<CartStore>()(
     }),
     {
       name: "cart-storage",
+      skipHydration: true,
     }
   )
 )

@@ -28,7 +28,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
         $set: { status: parsed.data.status },
         $push: { statusHistory: { status: parsed.data.status, note: parsed.data.note } },
       },
-      { new: true }
+      { returnDocument: "after" }
     ).lean();
     if (!order) {
       return NextResponse.json({ success: false, message: "Order not found or already closed." }, { status: 404 });

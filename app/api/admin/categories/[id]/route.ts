@@ -13,7 +13,7 @@ export async function PUT(request: Request, { params }: { params: { id: string }
     const updated = await ProductCategory.findByIdAndUpdate(
       params.id,
       { M04_category_name, M04_image },
-      { new: true }
+      { returnDocument: "after" }
     );
 
     if (!updated) {
@@ -35,7 +35,7 @@ export async function DELETE(request: Request, { params }: { params: { id: strin
     const deleted = await ProductCategory.findByIdAndUpdate(
       params.id,
       { M04_deleted_at: new Date() },
-      { new: true }
+      { returnDocument: "after" }
     );
 
     if (!deleted) {

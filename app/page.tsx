@@ -222,6 +222,7 @@ export default function HomePage() {
                     src={category?.M04_image || department.image}
                     alt={category?.M04_category_name || department.imageAlt}
                     fill
+                    priority={department.title === "Gifts"}
                     unoptimized
                     sizes="(max-width: 640px) 100vw, 33vw"
                     className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"

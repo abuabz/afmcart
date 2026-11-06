@@ -11,7 +11,6 @@ import Footer from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
 import { useSearchParams, useRouter } from "next/navigation"
-import ScrollReveal from "@/components/ui/scroll-reveal"
 
 // Define interfaces for category API response
 interface ProductCategory {
@@ -486,10 +485,10 @@ export default function ProductsPage() {
               {productError && <p role="alert" className="mb-4 text-sm text-amber-800">Showing previous results; new results could not be loaded.</p>}
               {filteredProducts.length > 0 ? (
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
-                  {filteredProducts.map((product, index) => (
-                    <ScrollReveal key={product.id} animation="fade-in-up" delay={index * 50} className="h-full" enableReAnimate={false}>
+                  {filteredProducts.map((product) => (
+                    <div key={product.id} className="h-full">
                       <Link href={`/products/${product.id}`} className="block h-full">
-                        <Card className="border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 h-full overflow-hidden bg-white group rounded-3xl">
+                        <Card className="border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 h-full overflow-hidden bg-white group rounded-3xl">
                           <div className="relative h-40 md:h-64 bg-gray-50 p-4 md:p-6 flex items-center justify-center overflow-hidden">
                             <Image
                               src={product.image || "/placeholder.svg"}
@@ -503,9 +502,9 @@ export default function ProductsPage() {
                               </Badge>
                             )}
                             <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                              <Button size="icon" variant="secondary" className="rounded-full h-8 w-8 hover:bg-amber-500 hover:text-black transition-colors shadow-md">
+                              <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-slate-800 shadow-md transition-colors group-hover:bg-amber-500 group-hover:text-black">
                                 <ArrowRight className="h-4 w-4" />
-                              </Button>
+                              </span>
                             </div>
                           </div>
 
@@ -533,14 +532,14 @@ export default function ProductsPage() {
                                   ₹{product.price}
                                 </span>
                               </div>
-                              <Button size="sm" className="bg-black text-white hover:bg-green-700 hover:text-black rounded-lg px-2 md:px-4 h-7 md:h-9 text-[10px] md:text-xs font-bold transition-all shadow-lg shadow-gray-200">
+                              <span aria-hidden="true" className="inline-flex h-7 items-center rounded-lg bg-black px-2 text-[10px] font-bold text-white shadow-sm transition-colors group-hover:bg-green-700 md:h-9 md:px-4 md:text-xs">
                                 Buy Now
-                              </Button>
+                              </span>
                             </div>
                           </CardContent>
                         </Card>
                       </Link>
-                    </ScrollReveal>
+                    </div>
                   ))}
                 </div>
               ) : (

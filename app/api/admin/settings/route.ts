@@ -27,7 +27,7 @@ export async function PUT(request: Request) {
     const settings = await StoreSettings.findOneAndUpdate(
       { key: "storefront" },
       { $set: parsed.data, $setOnInsert: { key: "storefront" } },
-      { upsert: true, new: true, setDefaultsOnInsert: true }
+      { upsert: true, returnDocument: "after", setDefaultsOnInsert: true }
     ).lean();
     return NextResponse.json({ success: true, data: settings });
   } catch {

@@ -29,6 +29,7 @@ export default function LightHeader() {
     const [showSuggestions, setShowSuggestions] = useState(false)
     const [suggestions, setSuggestions] = useState<ProductSuggestion[]>([])
     const [isSearching, setIsSearching] = useState(false)
+    const [cartHydrated, setCartHydrated] = useState(false)
 
     const { getCartCount } = useCart()
     const pathname = usePathname()
@@ -52,6 +53,15 @@ export default function LightHeader() {
             window.removeEventListener("scroll", handleScroll)
             document.removeEventListener("mousedown", handleClickOutside)
         }
+    }, [])
+
+    useEffect(() => {
+        const markHydrated = () => setCartHydrated(true)
+        if (useCart.persist.hasHydrated()) {
+            markHydrated()
+            return
+        }
+        return useCart.persist.onFinishHydration(markHydrated)
     }, [])
 
     useEffect(() => {
@@ -194,7 +204,7 @@ export default function LightHeader() {
                             >
                                 <ShoppingCart className="w-5 h-5" />
                                 <span className="absolute -top-1 -right-1 w-4 h-4 bg-green-700 text-white text-[10px] font-bold rounded-full flex items-center justify-center shadow-sm">
-                                    {getCartCount()}
+                                    {cartHydrated ? getCartCount() : 0}
                                 </span>
                             </Button>
                         </Link>
