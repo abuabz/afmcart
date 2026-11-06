@@ -192,7 +192,7 @@ export default function Footer() {
           </p>
           <div className="flex space-x-6">
             <Link href="/privacy" className="text-slate-500 hover:text-slate-900 text-xs transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="text-slate-500 hover:text-slate-900 text-xs transition-colors">Terms of Service</Link>
+            <Link href="/terms" className="text-slate-500 hover:text-slate-900 text-xs transition-colors">Terms &amp; Conditions</Link>
           </div>
         </div>
       </div>
